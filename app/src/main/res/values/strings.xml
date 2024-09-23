@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RealUAS</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="icon_description">Icon</string>
+
+    <string-array name="gender">
+        <item>L</item>
+        <item>P</item>
+    </string-array>
+</resources>

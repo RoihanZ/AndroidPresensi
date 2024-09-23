@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/background_apk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:id="@+id/etFullName"
+            android:background="@drawable/edit_border"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:hint="Full Name"
+            android:drawableLeft="@drawable/baseline_people_24"
+            android:drawablePadding="8dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"/>
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:id="@+id/etAddress"
+            android:background="@drawable/edit_border"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:hint="Address"
+            android:drawableLeft="@drawable/baseline_add_road_24"
+            android:drawablePadding="8dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"/>
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:id="@+id/etDoB"
+            android:background="@drawable/edit_border"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:hint="Date of Birth"
+            android:drawableLeft="@drawable/baseline_calendar_today_24"
+            android:drawablePadding="8dp"
+            android:inputType="date"
+            android:focusable="false"
+            android:clickable="true"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"/>
+
+        <Spinner
+            android:id="@+id/etGender"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_dob"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:spinnerMode="dialog"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:id="@+id/etPhoneNumber"
+            android:background="@drawable/edit_border"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:hint="Phone Number"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:drawablePadding="8dp"
+            android:inputType="phone"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="UPDATE"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_color"
+                android:textColor="@color/white"
+                android:fontFamily="@font/nunito"/>
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="BACK"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn_color"
+                android:textColor="@color/white"
+                android:fontFamily="@font/nunito"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tolong diisi form diatas!"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
